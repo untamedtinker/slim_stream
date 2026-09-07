@@ -1,0 +1,9 @@
+node_modules/
+bin/
+uploads/
+outputs/
+.DS_Store
+*.log
+.agents/
+skills/
+

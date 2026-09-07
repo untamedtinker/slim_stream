@@ -1,0 +1,27 @@
+{
+  "name": "slim-stream",
+  "version": "1.0.0",
+  "description": "User-friendly open-source video converter and metadata scrubber (.mov to .mp4) with dashboard UI and auto-managed FFmpeg",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "video-converter",
+    "mov-to-mp4",
+    "ffmpeg",
+    "metadata-scrubber",
+    "lossless-compression",
+    "dashboard"
+  ],
+  "author": "untamedtinker",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
